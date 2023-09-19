@@ -1,4 +1,4 @@
-class AP2Questao01(val supermercado: SPW) {
+class AP2Questao02(val supermercado: SPW) {
     fun solucao() {
         val estoque = supermercado.getEstoque()
         val itens = estoque.getItens()
@@ -24,5 +24,5 @@ class AP2Questao01(val supermercado: SPW) {
 }
 
 fun main() {
-    AP2Questao01(SPW()).solucao()
+    AP2Questao02(SPW()).solucao()
 }
